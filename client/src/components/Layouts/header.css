@@ -1,0 +1,42 @@
+/* styles.css */
+
+.heart-container {
+    display: inline-block;
+  }
+  
+  .heart-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .heart {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    margin-right: 5px;
+  }
+  
+  .heart:before,
+  .heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+  }
+  
+  .heart:before {
+    left: 5px;
+    width: 5px;
+    height: 8px;
+  }
+  
+  .heart:after {
+    right: 5px;
+    width: 5px;
+    height: 8px;
+  }
+  
